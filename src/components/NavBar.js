@@ -17,7 +17,7 @@ export default function NavBar() {
                         <div className="flex space-x-4 text-white font-semibold text-l">
                             <Link to="/skills">Portfolio</Link>
                             <Link to="/projects">Projects</Link>
-                            <Link to="/">About Me</Link>
+                            <Link to="/about">About Me</Link>
                         </div>
                     </div>
                 </div>

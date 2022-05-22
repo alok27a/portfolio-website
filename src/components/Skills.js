@@ -14,7 +14,6 @@ export default function Skills() {
     }, []);
     return (
         <>
-        <NavBar/>
             <div className="pagecontainer1 sm: flex flex-col  ">
                 <h1 className='text-3xl text-white mx-5 text-center leading-tight font-medium my-3 sm:' data-aos="flip-left">Skills</h1>
 
