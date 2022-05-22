@@ -1,25 +1,47 @@
-.heropagecontainer {
+.pagecontainer {
     background-image: url(/src/images/hero-bg.png);
-    min-height: 100%;
-    min-height: 100%;
-    position: fixed;
     min-width: 100%;
-    max-height: 100%;
+    min-height: 100vh;
+    position: fixed;
+    max-height: 100vh;
+    background-color: #191919;
+    animation: bg 30s linear infinite;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.pagecontainer1 {
+    background-image: url(/src/images/hero-bg.png);
+    min-width: 100%;
+    min-height: 100vh;
+    position: absolute;
     background-color: #191919;
     animation: bg 30s linear infinite;
 }
 
 .skills {
     animation: scrollText 29s infinite linear;
+    animation-play-state: running;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: hidden;
+    
 }
 
 @keyframes scrollText {
     from {
-        transform: translateX(100%);
+        transform: translateX(-100%);
     }
 
     to {
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
 }
 
