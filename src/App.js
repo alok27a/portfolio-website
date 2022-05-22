@@ -3,6 +3,7 @@ import HeroPage from './components/HeroPage';
 import 'aos/dist/aos.css';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import About from './components/About';
 import { Route } from "react-router-dom";
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
@@ -23,7 +24,7 @@ function App() {
             <Projects/>
           </Route>
           <Route exact path="/about">
-            <Projects/>
+            <About/>
           </Route>
         </Switch>
       </Router>
