@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.359801f0.css",
+    "main.js": "/portfolio-website/static/js/main.fb4d17f0.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio-website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/simplyinterior.jpeg": "/portfolio-website/static/media/simplyinterior.39cdfa407e3d517e16a1.jpeg",
+    "static/media/research.jpg": "/portfolio-website/static/media/research.d577b66363a7b8c00822.jpg",
+    "static/media/pr.jpg": "/portfolio-website/static/media/pr.b3fdc3897ba393378d2f.jpg",
+    "static/media/merit.jpg": "/portfolio-website/static/media/merit.d17f3ec21d5ac18dab88.jpg",
+    "static/media/SIH Acceptance.png": "/portfolio-website/static/media/SIH Acceptance.28152cb7f97ea1b2a604.png",
+    "static/media/adg.png": "/portfolio-website/static/media/adg.def945793d3029cd6791.png",
+    "static/media/profile1.jpg": "/portfolio-website/static/media/profile1.6cec689d23897612a592.jpg",
+    "static/media/blockchain.png": "/portfolio-website/static/media/blockchain.563693dd65ba6e7207c6.png",
+    "static/media/AMLogo1.png": "/portfolio-website/static/media/AMLogo1.aaf36992f1b79825cff6.png",
+    "static/media/unmask.jpg": "/portfolio-website/static/media/unmask.cb8223484fa4f495cd95.jpg",
+    "index.html": "/portfolio-website/index.html",
+    "main.359801f0.css.map": "/portfolio-website/static/css/main.359801f0.css.map",
+    "main.fb4d17f0.js.map": "/portfolio-website/static/js/main.fb4d17f0.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio-website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.359801f0.css",
+    "static/js/main.fb4d17f0.js"
+  ]
+}
