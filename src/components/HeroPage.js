@@ -2,8 +2,9 @@ import React, { useEffect } from 'react'
 import '../component-styles/index.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faInstagram, faFacebook, faGmail } from '@fortawesome/free-brands-svg-icons'
 import NavBar from './NavBar';
 
 export default function HeroPage() {
@@ -44,14 +45,16 @@ export default function HeroPage() {
                     </div>
 
                     <div className="portfolioandcv flex flex-col mx-20 sm:flex-row sm:justify-items-center sm:justify-center" data-aos="fade-up">
-                        <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-5  my-10 text-xl font-bold rounded-3xl sm:mx-4" >
-                            👇 View Portfolio
-                        </button>
-                        <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-5 text-xl font-bold rounded-3xl sm:mx-4 sm:my-10" >
-                            <a href="https://drive.google.com/file/d/1gtFE3NG5_L00q2wh3eF3omWmIXcf0Pxx/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <Link to="/skills">
+                            <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-5  my-10 text-xl font-bold rounded-3xl sm:mx-4" >
+                                👇 View Portfolio
+                            </button>
+                        </Link>
+                        <a href="https://drive.google.com/file/d/1gtFE3NG5_L00q2wh3eF3omWmIXcf0Pxx/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-5 text-xl font-bold rounded-3xl sm:mx-4 sm:my-10" >
                                 📃View Resume
-                            </a>
-                        </button>
+                            </button>
+                        </a>
                     </div>
                     <div className="skills hidden font-mono sm:flex flex-row text-justify justify-between  text-2xl flex-wrap text-violet-200 p-4 my-10" data-aos="fade-left">
                         <div className="sk1">Web Development</div>

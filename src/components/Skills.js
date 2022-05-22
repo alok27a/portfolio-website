@@ -3,10 +3,8 @@ import '../component-styles/index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { faGlobe, faMobileAndroid } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faAndroid, faBootstrap, faJava, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
-import NavBar from './NavBar';
-
 
 export default function Skills() {
     useEffect(() => {
@@ -21,25 +19,23 @@ export default function Skills() {
 
                     <div className="dev-skills flex flex-col justify-center align-center sm:flex sm:flex-row sm:justify-self-center	sm:mb-6">
 
-                        <div className="block p-9 rounded-lg shadow-lg bg-[#242629] max-w-sm my-5 mx-5 sm:mx-16 sm:ml-0" data-aos="flip-down">
+                        <div className="block p-8 rounded-lg shadow-lg bg-[#242629] max-w-sm my-5 mx-5 sm:mx-16 sm:ml-0" data-aos="flip-down">
                             <div className="heading-container flex flex-row text-white text-3xl leading-tight font-medium mb-2 justify-center">
                                 <FontAwesomeIcon icon={faGlobe} className="mx-5 my-5 text-4xl" />
                                 <h5 className="">Web Development</h5>
                             </div>
                             <p className="text-[#93A0B1] text-xl m-4">
-                                Some quick example text to build on the card title and make up the bulk of the card's
-                                content.
+                                Developing websites using HTML, CSS, JS, React.js as frontend frameworks and Node.js, MongoDB, PHP, MySQL for backend.
                             </p>
                         </div>
 
-                        <div className="block p-9 rounded-lg shadow-lg bg-[#242629] max-w-sm my-5 mx-5 sm:ml-6" data-aos="flip-down">
+                        <div className="block p-8 rounded-lg shadow-lg bg-[#242629] max-w-sm my-5 mx-5 sm:ml-6" data-aos="flip-down">
                             <div className="heading-container flex flex-row text-white text-3xl leading-tight font-medium mb-2 justify-center">
                                 <FontAwesomeIcon icon={faAndroid} className="mx-5 my-5 text-4xl" />
                                 <h5 className="">App Development</h5>
                             </div>
                             <p className="text-[#93A0B1]  text-xl m-4">
-                                Some quick example text to build on the card title and make up the bulk of the card's
-                                content.
+                                Mostly into Native Android Development using Java, but also open to other avenues if needed to.
                             </p>
                         </div>
 

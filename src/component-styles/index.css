@@ -7,9 +7,11 @@
     background-color: #191919;
     animation: bg 30s linear infinite;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
 }
+
 .pagecontainer1 {
     background-image: url(/src/images/hero-bg.png);
     min-width: 100%;
@@ -17,6 +19,8 @@
     position: absolute;
     background-color: #191919;
     animation: bg 30s linear infinite;
+    left: 0%;
+    right: 0%;
 }
 
 .skills {
@@ -32,7 +36,7 @@
     overflow: hidden;
     white-space: nowrap;
     overflow-x: hidden;
-    
+
 }
 
 @keyframes scrollText {

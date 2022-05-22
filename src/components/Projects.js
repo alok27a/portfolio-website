@@ -53,7 +53,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-                <button className=" bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-5 text-xl text-white font-bold rounded-3xl sm:mx-auto sm:my-10 " data-aos="fade-right">
+                <button className=" bg-violet-500 mx-auto my-5 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-5 text-xl text-white font-bold rounded-3xl sm:mx-auto sm:my-10 " data-aos="fade-right">
                     <a href="https://github.com/alok27a" target="_blank" rel="noreferrer">
                         View more on GitHub 
                     </a>
