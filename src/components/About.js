@@ -10,7 +10,7 @@ import ac2 from '../images/pr.jpg'
 import ac3 from '../images/research.jpg'
 import ac4 from '../images/SIH Acceptance.png'
 import ac5 from '../images/adg.png'
-
+import ac6 from '../images/iet.png'
 
 export default function About() {
   useEffect(() => {
@@ -61,6 +61,10 @@ export default function About() {
                   <img src={ac4} />
                   <p className="legend">SIH Acceptance from VIT</p>
                 </div> */}
+                <div>
+                  <img src={ac6}/>
+                  <p className="legend">Winner in Zeeve Track at BlockET conducted by IET VIT</p>
+                </div>
                 <div>
                   <img src={ac5}/>
                   <p className="legend">Second Runner's Up at Appathon conducted by ADG VIT</p>
