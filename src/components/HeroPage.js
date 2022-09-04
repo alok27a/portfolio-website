@@ -50,7 +50,7 @@ export default function HeroPage() {
                                 👇 View Portfolio
                             </button>
                         </Link>
-                        <a href="https://drive.google.com/file/d/1L1igZ-ySvHHDk_Q0_7zc9hsVG413R-0t/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <a href="https://resume.imalok.me" target="_blank" rel="noreferrer">
                             <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-5 text-xl font-bold rounded-3xl sm:mx-4 sm:my-10" >
                                 📃View Resume
                             </button>

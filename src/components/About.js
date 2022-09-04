@@ -8,7 +8,7 @@ import { Carousel } from 'react-responsive-carousel';
 import ac1 from '../images/merit.jpg'
 import ac2 from '../images/pr.jpg'
 import ac3 from '../images/research.jpg'
-import ac4 from '../images/SIH Acceptance.png'
+import ac4 from '../images/sih.png'
 import ac5 from '../images/adg.png'
 import ac6 from '../images/iet.png'
 
@@ -20,7 +20,7 @@ export default function About() {
     <>
       <div className="pagecontainer1">
         <div className="about-me flex flex-col  justify-between align-center text-center mx-5">
-          
+
           <div className="about-intro flex flex-col  sm:flex-row sm:mx-48 sm:text-left ">
             <div className="images sm: text-left " data-aos="zoom-in-right">
               <img src={profile} className=" place-content-center align-center my-5 rounded-xl 
@@ -46,6 +46,10 @@ export default function About() {
             <div className="certificates sm:basis-1/2" data-aos="zoom-in-left">
               <Carousel className="text-center w-auto h-fit sm:w-auto sm:mx-5" autoPlay="true" infiniteLoop="true" showStatus="false" showIndicators="false" stopOnHover="true" useKeyboardArrows="true">
                 <div>
+                  <img src={ac4} />
+                  <p className="legend">Winner SIH 2022</p>
+                </div>
+                <div>
                   <img src={ac1} />
                   <p className="legend">Merit Scholorship from VIT</p>
                 </div>
@@ -57,16 +61,12 @@ export default function About() {
                   <img src={ac3} />
                   <p className="legend">Research Paper publication in IJERT</p>
                 </div>
-                {/* <div>
-                  <img src={ac4} />
-                  <p className="legend">SIH Acceptance from VIT</p>
-                </div> */}
                 <div>
-                  <img src={ac6}/>
+                  <img src={ac6} />
                   <p className="legend">Winner in Zeeve Track at BlockET conducted by IET VIT</p>
                 </div>
                 <div>
-                  <img src={ac5}/>
+                  <img src={ac5} />
                   <p className="legend">Second Runner's Up at Appathon conducted by ADG VIT</p>
                 </div>
               </Carousel>
