@@ -2,8 +2,8 @@
     background-image: url(/src/images/hero-bg.png);
     min-width: 100%;
     min-height: 100vh;
-    position: fixed;
-    max-height: 100vh;
+    padding: 0%;
+    /* max-height: 100vh; */
     background-color: #242629;
     animation: bg 30s linear infinite;
 }
@@ -16,8 +16,7 @@
     background-image: url(/src/images/hero-bg.png);
     min-width: 100%;
     min-height: 100vh;
-    position: absolute;
-    background-color: #242629;
+    background-color: #16161A;
     animation: bg 30s linear infinite;
     left: 0%;
     right: 0%;

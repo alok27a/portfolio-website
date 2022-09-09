@@ -80,7 +80,7 @@ export default function Skills() {
                                 <p className="font-mono text-xl">Tailwind CSS</p>
 
                             </div>
-
+                            
 
                         </div>
 

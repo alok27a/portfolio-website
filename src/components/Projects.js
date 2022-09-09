@@ -7,9 +7,10 @@ import '../component-styles/projects_styles.css'
 import proj1 from '../images/simplyinterior.jpeg'
 import proj2 from '../images/unmask.jpg'
 import proj3 from '../images/blockchain.png'
+import { Button } from '@chakra-ui/react';
+import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLink } from '@fortawesome/free-brands-svg-icons';
-
+import { Text } from '@chakra-ui/react';
 
 export default function Projects() {
     useEffect(() => {
@@ -17,10 +18,10 @@ export default function Projects() {
     }, []);
     return (
         <>
-            <div className="pagecontainer1 flex flex-col justify-center">
-                <h1 className='text-3xl text-white mx-5 text-center leading-tight font-medium my-3' data-aos="fade-left">Stuff I've Worked On</h1>
+            <div className="pagecontainer flex flex-col justify-center">
 
-                <div className="p-8 flex flex-col justify-evenly sm:flex-row" data-aos="zoom-out-right">
+                    <h1 className='text-3xl text-white mx-5 text-center leading-tight font-medium my-10' >Stuff I've Worked On</h1>
+                <div className="p-4 flex flex-col justify-evenly sm:flex-row" >
                     <div className="max-w-sm overflow-hidden my-10 shadow-lg pb-6 rounded-xl bg-[#242629]" >
                         <img src={proj1} className="w-fit h-fit" alt="proj1" />
                         <div className="px-6 py-4">
@@ -53,11 +54,11 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-                <button className=" bg-violet-500 mx-auto my-5 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-5 text-xl text-white font-bold rounded-3xl sm:mx-auto sm:my-10 " data-aos="fade-right">
-                    <a href="https://github.com/alok27a" target="_blank" rel="noreferrer">
-                        View more on GitHub 
-                    </a>
-                </button>
+                <div className='flex justify-center'>
+                    <Button colorScheme='blue' size="lg" mb="4" href="https://github.com/alok27a" target="_blank">
+                       <Text mr="2">View more on GitHub </Text>   <FontAwesomeIcon icon={faUpRightFromSquare} />
+                    </Button>
+                </div>
             </div>
         </>
     )
