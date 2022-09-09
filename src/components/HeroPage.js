@@ -55,7 +55,7 @@ export default function HeroPage() {
                                 <FontAwesomeIcon icon={faArrowDown} /> <Text ml={2}>View Portfolio</Text>
                             </Button>
                         </Link>
-                        <a href="https://resume.imalok.me" target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1tQApJ0jIUUa0qWSiuUxE84op7585lqxK/view" target="_blank" rel="noreferrer">
                                 <Button colorScheme='blue' size="lg" m="5">
                                     <FontAwesomeIcon icon={faScroll} /> <Text ml={2}>View Resume</Text>
                                 </Button>

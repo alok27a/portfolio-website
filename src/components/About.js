@@ -37,13 +37,13 @@ export default function About() {
 
 
           <div className="achievemnet-intro mx-5 my-14 flex flex-col justify-between align-center sm:flex-row sm:mx-48">
-            <div className="text sm:my-5 sm:mx-15  sm:text-left sm:basis-1/2 sm:p-5" data-aos="zoom-in-right">
+            <div className="text sm:my-5 sm:mx-15  sm:text-left sm:basis-1/2 sm:p-5" data-aos="flip-down">
               <h1 className='text-3xl my-3 text-white font-bold'>Achievements</h1>
               <p className='text-xl text-[#93A0B1] font-mono my-3'>
                 I have participated in various events and also represented my department.
               </p>
             </div>
-            <div className="certificates sm:basis-1/2" data-aos="zoom-in-left">
+            <div className="certificates sm:basis-1/2" >
               <Carousel className="text-center w-auto h-fit sm:w-auto sm:mx-5" autoPlay="true" infiniteLoop="true" showStatus="false" showIndicators="false" stopOnHover="true" useKeyboardArrows="true">
                 <div>
                   <img src={ac4} />
