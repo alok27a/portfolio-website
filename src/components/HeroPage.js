@@ -18,7 +18,7 @@ export default function HeroPage() {
             <Box className="pagecontainer flex text-center justify-center pb-10 sm:pb-20">
                 <div className="container flex flex-col justify-center text-center text-white mb-24" >
                     <Box mb="5" mt="-0.5" className="heading" data-aos="fade-right">
-                        <Text fontSize="7xl">Hi I'm Alok 👋</Text>
+                        <Text fontSize={{ base: "5xl", md: "7xl" }} >Hi I'm Alok 👋</Text>
                     </Box>
                     {/* <Text fontSize="xl" data-aos="fade-left">
                         A tech enthusiast who is motivated about learning new things.

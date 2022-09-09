@@ -14,7 +14,6 @@ function App() {
   return (
     <>
       <ChakraProvider>
-
         <Router>
           <NavBar />
           <Switch>
