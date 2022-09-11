@@ -11,6 +11,9 @@ import ac3 from '../images/research.jpg'
 import ac4 from '../images/sih.png'
 import ac5 from '../images/adg.png'
 import ac6 from '../images/iet.png'
+import ac7 from '../images/cognition1.jpg'
+import ac8 from '../images/cognition2.jpg'
+// import ac8 from '../images/iet.png'
 
 export default function About() {
   useEffect(() => {
@@ -56,6 +59,14 @@ export default function About() {
                 <div>
                   <img src={ac2} />
                   <p className="legend">Program Representative of SCOPE</p>
+                </div>
+                <div>
+                  <img src={ac7} />
+                  <p className="legend">Winner Open Innovation Track in Cognition 2022 conducted by VITMAS VIT</p>
+                </div>
+                <div>
+                  <img src={ac8} />
+                  <p className="legend">Winner Best UI/UX in Cognition 2022 conducted by VITMAS VIT</p>
                 </div>
                 <div>
                   <img src={ac3} />
