@@ -13,6 +13,7 @@ import ac5 from '../images/adg.png'
 import ac6 from '../images/iet.png'
 import ac7 from '../images/cognition1.jpg'
 import ac8 from '../images/cognition2.jpg'
+import ac9 from '../images/research2.jpg'
 // import ac8 from '../images/iet.png'
 
 export default function About() {
@@ -67,6 +68,10 @@ export default function About() {
                 <div>
                   <img src={ac8} />
                   <p className="legend">Winner Best UI/UX in Cognition 2022 conducted by VITMAS VIT</p>
+                </div>
+                <div>
+                  <img src={ac9} />
+                  <p className="legend">Research Paper publication in ICECCT IEEE SCOPUS Indexed Conference</p>
                 </div>
                 <div>
                   <img src={ac3} />
