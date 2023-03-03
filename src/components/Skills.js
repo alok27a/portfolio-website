@@ -25,7 +25,7 @@ export default function Skills() {
                                 <h5 className="">Web Development</h5>
                             </div>
                             <p className="text-[#93A0B1] text-xl m-4">
-                                Developing websites using HTML, CSS, JS, React.js as frontend frameworks and Node.js, MongoDB, PHP, MySQL for backend.
+                                Developing websites using HTML, CSS, JS, React.js as frontend frameworks and Nodejs, MongoDB, PHP, MySQL for backend.
                             </p>
                         </div>
 
